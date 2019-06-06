@@ -1,1 +1,22 @@
 // Mixins in here
+.nav-display(@flex-dir,@justify){
+    display:flex;
+    flex-direction: @flex-dir;
+    justify-content: @justify;
+    
+}
+
+.btn-proper(@font-s, @color,@shade,@color-1){
+    border-radius:10px;
+    padding:5% 25%;
+    font-size:@font-s;
+    color:@color;
+    font-style:@shade;
+    background-color:@color-1;
+}
+
+
+// border-radius: 10px;
+
+
+

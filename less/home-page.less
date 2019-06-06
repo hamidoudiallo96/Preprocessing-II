@@ -5,6 +5,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-top: 2px dashed @navigation-border;
+    padding: 4%;
 
    
     
@@ -56,6 +58,11 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      
+      .btn button{
+        .btn-proper(1.8rem,@main-bg,bold,darken(@button-bg,5%))
+        
+      }
     }
   }
 }// home
