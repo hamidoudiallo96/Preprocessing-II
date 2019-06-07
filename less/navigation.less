@@ -7,6 +7,7 @@ header{
         border-bottom: 2px dashed @navigation-border;
         display: flex;
         align-items: baseline;
+        color: @font-color;
 
         @media @mobile{
             display: flex;
@@ -16,16 +17,17 @@ header{
 
        ul{
            display: flex;
-           justify-content: flex-end;
-           width:20%;
-           margin-left: 45%;
-           border: 5px solid black;
-           padding-left: 35%;
+           margin-left: 250px;
 
            li a{
-                border: 5px solid red;
                 margin-left: 40px;
-                font-size: 1rem;
+                font-size: 1.5rem;
+                color: @font-color;
+                text-decoration: none;
+           }
+
+           a:hover{
+               color: blue;
            }
 
            

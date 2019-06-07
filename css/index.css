@@ -177,8 +177,9 @@ header nav {
   border-bottom: 2px dashed #C0C0C0;
   display: flex;
   align-items: baseline;
+  color: #212529;
 }
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   header nav {
     display: flex;
     flex-direction: column;
@@ -186,16 +187,16 @@ header nav {
 }
 header nav ul {
   display: flex;
-  justify-content: flex-end;
-  width: 20%;
-  margin-left: 45%;
-  border: 5px solid black;
-  padding-left: 35%;
+  margin-left: 250px;
 }
 header nav ul li a {
-  border: 5px solid red;
   margin-left: 40px;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  color: #212529;
+  text-decoration: none;
+}
+header nav ul a:hover {
+  color: blue;
 }
 header .lower-head .pic-01 {
   padding-bottom: 2%;
