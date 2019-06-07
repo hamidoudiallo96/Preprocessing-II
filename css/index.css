@@ -324,3 +324,67 @@ header .lower-head p {
     padding-bottom: 20px;
   }
 }
+.home .contact-form {
+  text-align: center;
+  background-color: #FFEBCD;
+  margin-bottom: 40px;
+}
+.home .contact-form h2 {
+  padding-top: 20px;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+.home .contact-form .labels {
+  font-size: 2rem;
+}
+.home .contact-form input {
+  text-align: center;
+  width: 70%;
+  padding: 10px;
+  font-size: 1em;
+}
+.home .contact-form .info {
+  text-align: center;
+  padding: 50px 0px;
+}
+.home .contact-form .name-1 {
+  padding: 20px 0px;
+}
+.home .contact-form .name-2 {
+  padding: 20px 0px;
+}
+.home .contact-form .email {
+  padding: 20px 0px;
+}
+.home .contact-form .pass {
+  padding: 20px 0px;
+}
+.home .contact-form .phone {
+  padding: 20px 0px;
+}
+.home .contact-form button {
+  font-size: 1.5em;
+  background-color: #17A2B8;
+  color: white;
+  padding: 20px 40px;
+  width: 70%;
+  margin-top: 20px;
+  border: 1px white solid;
+  border-radius: 50px;
+}
+.home .contact-form button:hover {
+  background-color: #FFFFFF;
+  color: #17A2B8;
+}
+.home .contact-form button a {
+  text-decoration: none;
+  color: #17A2B8;
+}
+.home .contact-form button a:hover {
+  color: #17A2B8;
+  text-decoration: underline;
+}
+.home .contact-form select {
+  padding: 20px 0x;
+}
