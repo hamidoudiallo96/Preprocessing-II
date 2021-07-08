@@ -1,1 +1,91 @@
 // Navigation Styles here
+header{
+    max-width: 800px;
+    margin:0 auto;
+    @media @mobile{
+        margin: 0;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        color: @font-color;
+        padding: 5% 0%;
+
+        @media @mobile{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1{
+            @media @mobile{
+                // padding-left: 120px;
+                padding-bottom: 2%;
+                text-align: center;
+            }     
+        }
+        
+
+       ul{
+           display: flex;
+           margin-left: 250px;
+
+           @media @mobile{
+            padding-right: 20px;   
+            margin: 0;
+        }
+
+           li a{
+                margin-left: 40px;
+                font-size: 1.5rem;
+                color: @font-color;
+                text-decoration: none;
+           }
+
+           a:hover{
+               color: blue;
+           }
+
+           
+       }
+
+
+            
+    }
+
+        
+        
+        
+        
+    .bar{
+        border-bottom: 2px dashed @navigation-border;
+        width: 100%;
+    }
+
+    .lower-head{
+        
+        .pic-01{
+            padding-bottom: 2%;
+            
+        }
+        h1{
+            padding-bottom: 2%;
+            @media @mobile{
+                text-align: center;
+            }
+            
+        }
+        p{
+            padding-bottom: 1%;
+            @media @mobile{
+                text-align: center;
+            }
+            
+        }
+    }
+
+    
+        
+    }
+            
